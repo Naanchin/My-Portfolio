@@ -1,0 +1,125 @@
+/* general body styling */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+/* styling the nagigation bar */
+nav{
+    text-align: center;
+    color: rgb(11, 50, 94);
+    background-color: lightblue;
+    font-size: 25px;
+
+}
+/* styling the un-ordered lists in the navigation bar */
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    margin-top: 0%;
+}
+/* styling the un-orederd list of links in the naviagtion bar */
+nav ul li a{
+    line-height: 5px;
+    color: rgb(53, 58, 58);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-color: rgb(173, 139, 139);
+    margin-top: 0%;
+}
+/* what happens with you hover around the links */
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    transition: 0.5s;
+    opacity: 50%;
+}
+/* styling the about section */
+.text{
+    text-align: center;
+    margin: 100px 100px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+    color:rgb(22, 16, 16);
+    background-image: url(/img/Me.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgb(182, 226, 243);
+}
+/* styling the list of projects */
+.project{
+  text-align: left;
+    margin: 100px 100px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color:rgb(182, 88, 88);
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+  /* styling the from title in the contact page */
+  .form-title{
+    color: white;
+    text-align: left;
+    padding: 30px;
+    font-weight: bold;
+  } 
+  .contact{
+    margin-left: 70px;
+    color: white;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+  }
+  /* changing the size of the message box from in the contact page */
+  #message{
+    width: 90%; 
+    height: 100px;
+  }
+  /* styling the container created for the form inputs */
+  .form-container{
+    border: 2px solid rgb(34, 27, 27);
+    margin: 180px;
+    margin-top: 0px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .form-field{
+    padding: 40px;
+  }
+  /* styling the input */
+  input{
+    width: 90%;
+    padding: 10px 20px;
+    margin: 8px;
+    border: 1px solid slategray;
+    color: black
+  }
+  /* styling the buttons */
+  .btn{
+    padding: 10px 30px;
+    margin: 15px;
+    text-transform: capitalize;
+    background-color: burlywood;
+    font-size: 15px;
+  }
+  /* what happens when you hover around the buttons */
+  .btn:hover{
+    background-color: gray;
+    font-size: 20px;
+    transition: 0.5s;
+  }
